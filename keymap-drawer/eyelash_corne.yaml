@@ -1,47 +1,47 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  QWERTY:
+  QWERTZ:
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD W))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD R))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD T))
   - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Y))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD U))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD I))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD O))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD P))
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
-  - A
-  - S
-  - D
-  - F
-  - G
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD A))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD S))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD F))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD G))
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD K))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD L))
+  - DE ODIA
+  - DE ADIA
   - $$mdi:apple-keyboard-control$$
-  - Z
-  - X
-  - C
-  - V
-  - B
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Z))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD X))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD C))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD V))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD B))
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - N
-  - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD N))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD M))
+  - DE COMM
+  - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN)))
+  - DE MINS
   - $$mdi:keyboard-esc$$
   - LGUI
   - NUMBER
