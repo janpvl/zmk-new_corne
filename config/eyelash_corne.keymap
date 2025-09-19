@@ -70,8 +70,8 @@
             bindings = <
 &kp ESC         &kp DE_Q    &kp DE_W    &kp DE_E     &kp DE_R   &kp DE_T                      &kp UP                        &kp DE_Y     &kp DE_U    &kp DE_I      &kp DE_O    &kp DE_P             &kp DE_U_UMLAUT
 &kp TAB         &kp DE_A    &kp DE_S    &kp DE_D     &kp DE_F   &kp DE_G            &kp LEFT  &kp ENTER  &kp RIGHT          &kp DE_H     &kp DE_J    &kp DE_K      &kp DE_L    &kp DE_O_UMLAUT      &kp DE_A_UMLAUT
-&kp LCTRL       &kp DE_Z    &kp DE_X    &kp DE_C     &kp DE_V   &kp DE_B                      &kp DOWN                      &kp DE_N     &kp DE_M    &kp COMMA     &kp DOT     &kp DE_MINUS         &kp DE_PLUS
-                                             &kp LGUI  &kp DE_SPACE  &mo 2                                                &kp ENTER  &mo 3  &kp BSPC
+&kp LCTRL       &kp DE_Z    &kp DE_X    &kp DE_C     &kp DE_V   &kp DE_B            &kp SPACE &kp DOWN                      &kp DE_N     &kp DE_M    &kp COMMA     &kp DOT     &kp DE_MINUS         &kp DE_PLUS
+                                             &kp LGUI  &kp DE_SPACE  &mo 2                                                  &kp ENTER  &mo 3  &kp BSPC
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
