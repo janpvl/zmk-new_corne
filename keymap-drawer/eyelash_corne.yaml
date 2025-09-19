@@ -48,7 +48,7 @@ layers:
   - SYMBOL
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Fn
-  - $$mdi:backspace-reverse-outline$$
+  - {t: '$$mdi:backspace$$', type: backspace}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
