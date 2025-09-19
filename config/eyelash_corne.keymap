@@ -17,7 +17,7 @@
 
 &msc {
     acceleration-exponent = <1>;      // 0
-    time-to-max-speed-ms = <100>;       // 300
+    time-to-max-speed-ms = <100>;     // 300
     delay-ms = <0>;                   // 0
 };
 
@@ -66,11 +66,11 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            display-name = "QWERTY";
+            display-name = "QWERTZ";
             bindings = <
-&kp TAB    &kp Q  &kp W  &kp E     &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S  &kp D     &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C     &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESC
+&kp TAB    &kp DE_Q  &kp DE_W  &kp DE_E     &kp DE_R  &kp DE_T                               &kp UP                &kp DE_Z      &kp DE_U  &kp DE_I    &kp DE_O    &kp DE_P   &kp BSPC
+&td0       &kp DE_A  &kp DE_S  &kp DE_D     &kp DE_F  &kp DE_G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp DE_H      &kp DE_J  &kp DE_K    &kp DE_L    &kp DE_ODIA  &kp DE_ADIA
+&kp LCTRL  &kp DE_Y  &kp DE_X  &kp DE_C     &kp DE_V  &kp DE_B        &kp SPACE              &kp DOWN              &kp DE_N      &kp DE_M  &kp DE_COMM  &kp DE_DOT  &kp DE_MINS  &kp ESC
                          &kp LGUI  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
